@@ -5,4 +5,5 @@ Special points in building Next.js app
 - https://javascript.plainenglish.io/next-js-14-how-to-redirect-without-flashing-the-page-for-a-moment-5b202bc60cb9
   useEffect +  router.replace / redirect in 'next/navigation'
 - https://nextjs.org/docs/pages/building-your-application/routing/middleware
-  use middleware with NextJS. This way you don’t need to handle this check in the front end
+  use middleware with NextJS. This way you don’t need to handle this check in the front end。
+  Next.js 15 introduces middleware for server-side logic, enabling developers to run code before a request is completed. This is useful for tasks like authentication, logging, and redirects.
